@@ -1,8 +1,8 @@
 return {
   {
     "ellisonleao/gruvbox.nvim",
-    priority = 1000,
     lazy = false,
+    priority = 1000,
   },
   {
     "craftzdog/solarized-osaka.nvim",
@@ -13,5 +13,13 @@ return {
         transparent = true,
       }
     end,
+  },
+  {
+    "navarasu/onedark.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      style = "darker",
+    },
   },
 }
